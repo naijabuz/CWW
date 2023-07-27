@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-color: whitesmoke;
+            width: 80%;
+            margin: 30px auto;
+            font-family: verdana;
+        }
+
+        th {
+            background-color: rgb(39, 39, 39);
+            color: white;
+        }
+
+        table {
+            margin: 0 auto;
+            width: 60%;
+
+        }
+
+        table,td,th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+
+        tr.even {
+            background-color: rgb(231, 231, 231);
+        }
+
+        caption {
+            padding-bottom: 20px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <table>
+            <thead>
+                <caption>List Of Programming Languages</caption>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>S/N</th>
+                    <th>NAME OF PROGRAMING LANGUAGE</th>
+                    <th>POPULARITY</th>
+                </tr>
+
+                <tr >
+                    <td>1</td>
+                    <td>Javascript</td>
+                    <td>Very popular</td>
+                </tr>
+
+                <tr class="even">
+                    <td>2</td>
+                    <td>Python</td>
+                    <td>Very popular</td>
+                </tr>
+
+                <tr >
+                    <td>3</td>
+                    <td>Java</td>
+                    <td>Very popular</td>
+                </tr>
+
+                <tr class="even">
+                    <td>4</td>
+                    <td>Kotlin</td>
+                    <td>Popular</td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2">Extra</td>
+                    <td rowspan="2" colspan="2">All this programming languages are applied in various fields such as Website/Web App Development, Mobile Development, Data Analysis/Data Science, Softwares etc.</td>
+                    <!-- <td>Very popular</td> -->
+                </tr>
+
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>
