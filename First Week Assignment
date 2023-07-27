@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Yusuf Tomilola</title>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <!-- Introduction Section -->
+        <h2>Introduction</h2>
+        <p>My name is <b>Yusuf Tomilola Falade</b>. I am a Tech enthusiast with a passion for Web and AI technologies. I am generally a <i>fun person (hehehe)</i> to be around and i am currently based in Kaduna.</p>
+        <img src="1080x360.jpg" alt="image of code snippets displayed on a screen" width="1080" height="360" title="image of a code snippet">
+
+        <!-- Hobbies Section -->
+        <section>
+            <h2>Hobbies</h2>
+        <ul>
+            <li>Listening to Music</li>
+            <li>Watching movies</li>
+            <li>Eating junks</li>
+            <li>stalking people on IG</li>
+        </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h2>Contact</h2>
+        <ol>
+            <li><a href="https//linkedin.com" target="_blank">Linkedin</a></li>
+            <li><a href="https//twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https//instagram.com" target="_blank">Instagram</a></li>
+        </ol>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
